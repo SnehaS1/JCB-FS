@@ -1,7 +1,7 @@
 
 ## clone or download
 ```terminal
-$ git clone [https://github.com/amazingandyyy/mern.git](https://github.com/SnehaS1/JCB-FS.git
+$ git clone https://github.com/SnehaS1/JCB-FS.git
 $ yarn # or npm i
 ```
 ## project structure
