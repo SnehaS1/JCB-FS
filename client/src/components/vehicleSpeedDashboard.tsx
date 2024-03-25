@@ -129,7 +129,7 @@ function VehicleSpeedDashboard({
   return (
     <div
       id="chartdivspeedchange"
-      style={{ width: "100%", height: "500px", border: "2px solid red" }}
+      style={{ width: "100%", height: "500px" }}
     ></div>
   );
 }

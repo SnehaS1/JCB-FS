@@ -7,7 +7,7 @@
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
-    "start:dev": "npx nodemon"
+    "start:dev": "set NODE_ENV=dev && npx nodemon"
   },
   "keywords": [],
   "author": "",

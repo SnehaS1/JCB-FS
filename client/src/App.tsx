@@ -1,9 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
-import AboutPage from "./pages/about";
-import Sidebar from "./components/sidebar";
 import VehiclePage from "./pages/vehicles";
-import apiClient from "./http-common";
 import TrackVehiclePage from "./pages/track";
 import MaintenancePage from "./pages/maintenance";
 import UpsertMaintenancePage from "./pages/upsertMaintenance";
@@ -14,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Sidebar/> */}
       <div className="conatineVehicle">
         <Routes>
           <Route path="/" element={<HomePage />} />

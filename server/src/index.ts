@@ -29,7 +29,7 @@ const options = {
   apis: ["./routes/*.ts"],
 };
 const specs = swaggerJsdoc(options);
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
+// app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 connectDB;
 connectDB()
   .then(() => {
