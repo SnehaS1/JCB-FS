@@ -1,6 +1,5 @@
-// Import necessary modules and models
 import express, { Request, Response } from "express";
-import mongoose, { ObjectId } from "mongoose";
+import { ObjectId } from "mongoose";
 import VehicleMaintenanceRecord, {
   VehicleMaintenanceRecordInterface,
 } from "../models/vehicleMaintenance.schema";
